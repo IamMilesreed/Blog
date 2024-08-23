@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
     line-height: 1.6;
 }
 
 /* Header styling */
 header {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #1a1a1d, #4e4e50);
     color: white;
     padding: 40px 0;
     text-align: center;
@@ -30,9 +30,9 @@ header h1 {
 
 /* Navigation styling */
 nav {
-    background-color: #fff;
+    background-color: #1a1a1d;
     padding: 15px 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -49,18 +49,19 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #333;
+    color: #e0e0e0;
     text-decoration: none;
     font-weight: 500;
     padding: 10px 20px;
     border-radius: 30px;
     transition: all 0.3s ease;
+    background-color: #282828;
 }
 
 nav ul li a:hover {
-    background-color: #6a11cb;
-    color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #4e4e50;
+    color: #f5a623;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Main content styling */
@@ -68,9 +69,9 @@ main {
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #1f1f1f;
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
 
@@ -86,18 +87,18 @@ article img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 article h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #6a11cb;
+    color: #f5a623;
 }
 
 article p {
     font-size: 1.2em;
-    color: #666;
+    color: #b3b3b3;
     line-height: 1.8;
 }
 
@@ -105,8 +106,8 @@ article a {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #2575fc;
-    color: white;
+    background-color: #4e4e50;
+    color: #f5a623;
     border-radius: 30px;
     text-decoration: none;
     font-weight: 500;
@@ -114,18 +115,19 @@ article a {
 }
 
 article a:hover {
-    background-color: #6a11cb;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #f5a623;
+    color: #1a1a1d;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Footer styling */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #1a1a1d;
+    color: #b3b3b3;
     text-align: center;
     padding: 20px 0;
     margin-top: 50px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
 }
 
 footer p {
