@@ -7,15 +7,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: #0d0d0d;  /* Darker background */
+    color: #cccccc;  /* Lighter, less bright text */
     line-height: 1.6;
 }
 
 /* Header styling */
 header {
-    background: linear-gradient(135deg, #1a1a1d, #4e4e50);
-    color: white;
+    background: linear-gradient(135deg, #0a0a0a, #2a2a2a); /* Very dark gradient */
+    color: #ffffff;
     padding: 40px 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -30,7 +30,7 @@ header h1 {
 
 /* Navigation styling */
 nav {
-    background-color: #1a1a1d;
+    background-color: #1a1a1a;  /* Darker nav background */
     padding: 15px 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     position: sticky;
@@ -49,18 +49,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e0e0e0;
+    color: #cccccc;  /* Softer text color */
     text-decoration: none;
     font-weight: 500;
     padding: 10px 20px;
     border-radius: 30px;
     transition: all 0.3s ease;
-    background-color: #282828;
+    background-color: #333333;  /* Darker button background */
 }
 
 nav ul li a:hover {
-    background-color: #4e4e50;
-    color: #f5a623;
+    background-color: #444444;  /* Slightly lighter on hover */
+    color: #ffcc00;  /* Warm, gold accent color */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -69,7 +69,7 @@ main {
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #1f1f1f;
+    background-color: #141414;  /* Dark background */
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     overflow: hidden;
@@ -93,12 +93,12 @@ article img {
 article h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #f5a623;
+    color: #ffcc00;  /* Warm, gold accent color */
 }
 
 article p {
     font-size: 1.2em;
-    color: #b3b3b3;
+    color: #bbbbbb;  /* Softer text color */
     line-height: 1.8;
 }
 
@@ -106,8 +106,8 @@ article a {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #4e4e50;
-    color: #f5a623;
+    background-color: #444444;  /* Darker button background */
+    color: #ffcc00;  /* Warm, gold text */
     border-radius: 30px;
     text-decoration: none;
     font-weight: 500;
@@ -115,15 +115,15 @@ article a {
 }
 
 article a:hover {
-    background-color: #f5a623;
-    color: #1a1a1d;
+    background-color: #ffcc00;  /* Warm, gold hover effect */
+    color: #141414;  /* Contrast against gold */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Footer styling */
 footer {
-    background-color: #1a1a1d;
-    color: #b3b3b3;
+    background-color: #1a1a1a;  /* Darker footer background */
+    color: #bbbbbb;  /* Softer footer text */
     text-align: center;
     padding: 20px 0;
     margin-top: 50px;
